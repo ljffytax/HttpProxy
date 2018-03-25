@@ -14,7 +14,6 @@ import os
 import atexit
 from signal import SIGTERM 
 
-
 LISTENPORT = ("0.0.0.0",8888)
 ALIVEPORT = ("0.0.0.0",8889)
 KEY = 'yourkey'
@@ -468,4 +467,4 @@ if __name__ == "__main__":
 		sys.exit(0)
 	else:
 		print "usage: %s start|stop|restart" % sys.argv[0]
-		sys.exit(2) 
+		sys.exit(2)
